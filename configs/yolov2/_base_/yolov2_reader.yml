@@ -4,7 +4,6 @@ TrainReader:
     num_max_boxes: 50
   sample_transforms:
     - Decode: {}
-    #- Mosaic: {target_size: 608}
     - RandomDistort: {}
     - RandomExpand: {fill_value: [123.675, 116.28, 103.53]}
     - RandomCrop: {}
