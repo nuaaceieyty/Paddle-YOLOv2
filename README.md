@@ -1,6 +1,6 @@
 # Paddle-YOLOv2
 
-PaddlePaddle 复现YOLO9000(YOLOv2)
+PaddlePaddle_v2.1 复现YOLO9000(YOLOv2)
 
 ## 代码结构
 
