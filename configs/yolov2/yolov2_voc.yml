@@ -8,7 +8,7 @@ _BASE_: [
 snapshot_epoch: 1
 weights: output/yolov2_voc/best_model
 
-epoch: 310
+epoch: 365
 
 LearningRate:
   base_lr: 0.001
