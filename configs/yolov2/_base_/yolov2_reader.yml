@@ -9,7 +9,7 @@ TrainReader:
     - RandomCrop: {}
     - RandomFlip: {}
   batch_transforms:
-    - BatchRandomResize: {target_size: [320, 352, 384, 416, 448, 480, 512, 544, 576, 608], random_size: True, random_interp: True, keep_ratio: False}
+    - BatchRandomResize: {target_size: [320, 352, 384, 416, 448, 480, 512, 544, 576, 608, 640, 672, 704], random_size: True, random_interp: True, keep_ratio: False}
     - NormalizeBox: {}
     - PadBox: {num_max_boxes: 50}
     - BboxXYXY2XYWH: {}
