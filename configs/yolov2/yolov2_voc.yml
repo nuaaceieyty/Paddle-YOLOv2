@@ -24,8 +24,8 @@ LearningRate:
 
 OptimizerBuilder:
   optimizer:
-    momentum: 0.9
+    momentum: 0.7
     type: Momentum
   regularizer:
-    factor: 0.0005
+    factor: 0.00001
     type: L2
