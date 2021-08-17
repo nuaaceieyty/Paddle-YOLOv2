@@ -20,9 +20,9 @@ PaddlePaddle_v2.1 复现YOLO9000(YOLOv2)
 ## 评估
 
 1. 如果您不想自己训练，可以在顶层文件下创建output/yolov2_voc文件夹，并下载我训练好的权重数据到此文件夹中（地址为：https://aistudio.baidu.com/aistudio/datasetdetail/103354 ），然后运行第2步中命令。
-2. python tools/eval.py -c configs/yolov2/yolov2_voc.yml （使用上述权重即可得到精度76.81%）
+2. python tools/eval.py -c configs/yolov2/yolov2_voc.yml （使用上述权重即可得到精度76.86%）
 
-![复现结果截图](https://github.com/nuaaceieyty/Paddle-YOLOv2/blob/main/reusilts76.82.JPG)
+![复现结果截图](https://github.com/nuaaceieyty/Paddle-YOLOv2/blob/main/result.JPG)
 
 ## 预测
 
