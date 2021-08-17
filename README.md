@@ -27,4 +27,4 @@ PaddlePaddle_v2.1 复现YOLO9000(YOLOv2)
 ## 预测
 
 
-(附注：训练日志也在网址：https://aistudio.baidu.com/aistudio/datasetdetail/103354 )
+(附注：训练日志也在网址：https://aistudio.baidu.com/aistudio/datasetdetail/103354 ，需要用VisualDL打开)
