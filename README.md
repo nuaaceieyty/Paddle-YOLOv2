@@ -14,7 +14,7 @@ PaddlePaddle_v2.1 复现YOLO9000(YOLOv2)
 2. pip install -r requirements.txt
 3. 在顶层目录下创建output文件夹，并在此处下载主干网络Darknet19的预训练权重（我已经将darknet官方提供的转为了pdparams格式），地址为：https://aistudio.baidu.com/aistudio/datasetdetail/103069 。
 4. 本项目使用单卡Tesla V100-32G即可训练，注意：voc数据集应该提前下好，并且解压到顶层目录下（数据集地址为：https://aistudio.baidu.com/aistudio/datasetdetail/63105 ）。如果出现数据集地址问题，请在configs/datasets/voc.yml文件中将相应地址改为绝对路径。
-5. python tools/train.py -c configs/yolov2/yolov2_voc.yml --eval
+5. python tools/train.py -c configs/yolov2/yolov2_voc.yml --eval --fp16
 6. 至此训练开始。
 
 ## 评估
@@ -27,4 +27,4 @@ PaddlePaddle_v2.1 复现YOLO9000(YOLOv2)
 ## 预测
 
 
-(附注：训练时在接近后期阶段时，mAP可以达到很接近76.8的程度，这时需要临时微调一些超参数以达到复现精度)
+(附注：训练日志也在网址：https://aistudio.baidu.com/aistudio/datasetdetail/103354 )
